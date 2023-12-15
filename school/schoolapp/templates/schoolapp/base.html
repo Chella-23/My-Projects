@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>School</title>
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+
+</head>
+<body>
+    <div class="card text-center">
+        <div class="card-header">
+            PAHSS
+        </div>
+        <div class="card-body">
+          <h5 class="card-title"></h5>
+          <p class="card-text"> Admission Open for All</p>
+          
+          <form method="post">
+            {{form.as_p}} {%csrf_token%}
+            <input type="submit" class="btn btn-primary" value="Register" />
+          </form>
+        </div>
+        
+        <div class="card-footer text-muted">
+            <h2> About us</h2>
+            <p>PAHSS since 1950. We have experienced teachers and staffs.100% accademic passed out since 2010. Have all the Latest Technology labs.Advancerd Computer Lab, Chemistry lab, and Physics Lab </p>
+            <h2>Contact</h2>
+            <h2>Phone: 11111</h2>
+            <h2>Email: xxxxxx@gmail.com</h2>
+            </pre>
+             </div>
+      </div>
+</body>
+</html>
